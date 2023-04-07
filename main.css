@@ -17,6 +17,7 @@ body{
 input[type="text"] {
 height: 50px;
 width: 600 px;
+text-align: center;
 background: #e7e7e7;
 font-family:'Courier New', Courier, monospace;
 font-weight: bold;
@@ -29,24 +30,43 @@ padding: 10px 10px;
 input[type="submit"] {
     height: 50px;
     width: 100px;
-    background: #e7e7e7;
+    background: #5a1a1a;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;    
+    }
+    
+  
+
+.card-body{
+    background-color: powderblue;
+    color: blue;
+    margin: 20px 20px 20px 20px;
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.card{
+    height: 50px;
+    width: 100px;
+    background: #af1212;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
     border: none;
     border-radius: 2px;
-    
-    }
-.display{
     text-align: center;
-}
-
-body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+    margin: auto;
+  
+ 
+  } 
